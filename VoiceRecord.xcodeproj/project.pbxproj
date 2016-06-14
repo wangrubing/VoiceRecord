@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54E5E9F1D0EFE2000E56DAA /* VRListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54E5E9E1D0EFE2000E56DAA /* VRListController.m */; };
+		D5A726911D07E31B0078284A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726901D07E31B0078284A /* main.m */; };
+		D5A726941D07E31B0078284A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726931D07E31B0078284A /* AppDelegate.m */; };
+		D5A7269A1D07E31B0078284A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A726981D07E31B0078284A /* Main.storyboard */; };
+		D5A7269C1D07E31B0078284A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A7269B1D07E31B0078284A /* Assets.xcassets */; };
+		D5A7269F1D07E31B0078284A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A7269D1D07E31B0078284A /* LaunchScreen.storyboard */; };
+		D5A726AA1D07E3A30078284A /* VRLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726A91D07E3A30078284A /* VRLoginController.m */; };
+		D5A726B01D07E5B80078284A /* WRBScreenAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726AF1D07E5B80078284A /* WRBScreenAdaptation.m */; };
+		D5A726B41D07E7B60078284A /* NavigationControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726B31D07E7B60078284A /* NavigationControllerAdditions.m */; };
+		D5A726B71D07E9650078284A /* VRTrainController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726B61D07E9650078284A /* VRTrainController.m */; };
+		D5A726B91D0811D80078284A /* Text.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5A726B81D0811D80078284A /* Text.plist */; };
+		D5A726BD1D0816600078284A /* WRBAlertViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726BC1D0816600078284A /* WRBAlertViewTool.m */; };
+		D5A726C41D081F300078284A /* WRBVoiceRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A726C21D081F300078284A /* WRBVoiceRecordManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D54E5E9D1D0EFE2000E56DAA /* VRListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRListController.h; sourceTree = "<group>"; };
+		D54E5E9E1D0EFE2000E56DAA /* VRListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRListController.m; sourceTree = "<group>"; };
+		D5A7268C1D07E31B0078284A /* VoiceRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A726901D07E31B0078284A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5A726921D07E31B0078284A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5A726931D07E31B0078284A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5A726991D07E31B0078284A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5A7269B1D07E31B0078284A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A7269E1D07E31B0078284A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5A726A01D07E31B0078284A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A726A81D07E3A30078284A /* VRLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRLoginController.h; sourceTree = "<group>"; };
+		D5A726A91D07E3A30078284A /* VRLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRLoginController.m; sourceTree = "<group>"; };
+		D5A726AD1D07E5B80078284A /* WRBScreenAdaptaionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBScreenAdaptaionMacro.h; sourceTree = "<group>"; };
+		D5A726AE1D07E5B80078284A /* WRBScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBScreenAdaptation.h; sourceTree = "<group>"; };
+		D5A726AF1D07E5B80078284A /* WRBScreenAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBScreenAdaptation.m; sourceTree = "<group>"; };
+		D5A726B21D07E7B60078284A /* NavigationControllerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerAdditions.h; sourceTree = "<group>"; };
+		D5A726B31D07E7B60078284A /* NavigationControllerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerAdditions.m; sourceTree = "<group>"; };
+		D5A726B51D07E9650078284A /* VRTrainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRTrainController.h; sourceTree = "<group>"; };
+		D5A726B61D07E9650078284A /* VRTrainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRTrainController.m; sourceTree = "<group>"; };
+		D5A726B81D0811D80078284A /* Text.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Text.plist; sourceTree = "<group>"; };
+		D5A726BB1D0816600078284A /* WRBAlertViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBAlertViewTool.h; sourceTree = "<group>"; };
+		D5A726BC1D0816600078284A /* WRBAlertViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBAlertViewTool.m; sourceTree = "<group>"; };
+		D5A726C11D081F300078284A /* WRBVoiceRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRBVoiceRecordManager.h; sourceTree = "<group>"; };
+		D5A726C21D081F300078284A /* WRBVoiceRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRBVoiceRecordManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A726891D07E31B0078284A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A726831D07E31B0078284A = {
+			isa = PBXGroup;
+			children = (
+				D5A7268E1D07E31B0078284A /* VoiceRecord */,
+				D5A7268D1D07E31B0078284A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A7268D1D07E31B0078284A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7268C1D07E31B0078284A /* VoiceRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A7268E1D07E31B0078284A /* VoiceRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726AB1D07E59C0078284A /* ThirdLib */,
+				D5A726A61D07E3810078284A /* Main */,
+				D5A726921D07E31B0078284A /* AppDelegate.h */,
+				D5A726931D07E31B0078284A /* AppDelegate.m */,
+				D5A726981D07E31B0078284A /* Main.storyboard */,
+				D5A7269B1D07E31B0078284A /* Assets.xcassets */,
+				D5A7269D1D07E31B0078284A /* LaunchScreen.storyboard */,
+				D5A726B81D0811D80078284A /* Text.plist */,
+				D5A726A01D07E31B0078284A /* Info.plist */,
+				D5A7268F1D07E31B0078284A /* Supporting Files */,
+			);
+			path = VoiceRecord;
+			sourceTree = "<group>";
+		};
+		D5A7268F1D07E31B0078284A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726901D07E31B0078284A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5A726A61D07E3810078284A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726A81D07E3A30078284A /* VRLoginController.h */,
+				D5A726A91D07E3A30078284A /* VRLoginController.m */,
+				D5A726B51D07E9650078284A /* VRTrainController.h */,
+				D5A726B61D07E9650078284A /* VRTrainController.m */,
+				D54E5E9D1D0EFE2000E56DAA /* VRListController.h */,
+				D54E5E9E1D0EFE2000E56DAA /* VRListController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D5A726AB1D07E59C0078284A /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726BE1D081F2F0078284A /* VoiceRecordManager */,
+				D5A726BA1D0816600078284A /* AlertViewTool */,
+				D5A726B11D07E7B60078284A /* WhiteStatusBar */,
+				D5A726AC1D07E5B80078284A /* ScreenAdaptation */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		D5A726AC1D07E5B80078284A /* ScreenAdaptation */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726AD1D07E5B80078284A /* WRBScreenAdaptaionMacro.h */,
+				D5A726AE1D07E5B80078284A /* WRBScreenAdaptation.h */,
+				D5A726AF1D07E5B80078284A /* WRBScreenAdaptation.m */,
+			);
+			path = ScreenAdaptation;
+			sourceTree = "<group>";
+		};
+		D5A726B11D07E7B60078284A /* WhiteStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726B21D07E7B60078284A /* NavigationControllerAdditions.h */,
+				D5A726B31D07E7B60078284A /* NavigationControllerAdditions.m */,
+			);
+			path = WhiteStatusBar;
+			sourceTree = "<group>";
+		};
+		D5A726BA1D0816600078284A /* AlertViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726BB1D0816600078284A /* WRBAlertViewTool.h */,
+				D5A726BC1D0816600078284A /* WRBAlertViewTool.m */,
+			);
+			path = AlertViewTool;
+			sourceTree = "<group>";
+		};
+		D5A726BE1D081F2F0078284A /* VoiceRecordManager */ = {
+			isa = PBXGroup;
+			children = (
+				D5A726C11D081F300078284A /* WRBVoiceRecordManager.h */,
+				D5A726C21D081F300078284A /* WRBVoiceRecordManager.m */,
+			);
+			path = VoiceRecordManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A7268B1D07E31B0078284A /* VoiceRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A726A31D07E31B0078284A /* Build configuration list for PBXNativeTarget "VoiceRecord" */;
+			buildPhases = (
+				D5A726881D07E31B0078284A /* Sources */,
+				D5A726891D07E31B0078284A /* Frameworks */,
+				D5A7268A1D07E31B0078284A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRecord;
+			productName = VoiceRecord;
+			productReference = D5A7268C1D07E31B0078284A /* VoiceRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A726841D07E31B0078284A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VR;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王茹冰";
+				TargetAttributes = {
+					D5A7268B1D07E31B0078284A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T952529H9W;
+					};
+				};
+			};
+			buildConfigurationList = D5A726871D07E31B0078284A /* Build configuration list for PBXProject "VoiceRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A726831D07E31B0078284A;
+			productRefGroup = D5A7268D1D07E31B0078284A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A7268B1D07E31B0078284A /* VoiceRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A7268A1D07E31B0078284A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A7269F1D07E31B0078284A /* LaunchScreen.storyboard in Resources */,
+				D5A726B91D0811D80078284A /* Text.plist in Resources */,
+				D5A7269C1D07E31B0078284A /* Assets.xcassets in Resources */,
+				D5A7269A1D07E31B0078284A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A726881D07E31B0078284A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A726B01D07E5B80078284A /* WRBScreenAdaptation.m in Sources */,
+				D5A726941D07E31B0078284A /* AppDelegate.m in Sources */,
+				D5A726C41D081F300078284A /* WRBVoiceRecordManager.m in Sources */,
+				D5A726BD1D0816600078284A /* WRBAlertViewTool.m in Sources */,
+				D5A726B71D07E9650078284A /* VRTrainController.m in Sources */,
+				D5A726911D07E31B0078284A /* main.m in Sources */,
+				D5A726AA1D07E3A30078284A /* VRLoginController.m in Sources */,
+				D5A726B41D07E7B60078284A /* NavigationControllerAdditions.m in Sources */,
+				D54E5E9F1D0EFE2000E56DAA /* VRListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5A726981D07E31B0078284A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A726991D07E31B0078284A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A7269D1D07E31B0078284A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A7269E1D07E31B0078284A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5A726A11D07E31B0078284A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A726A21D07E31B0078284A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A726A41D07E31B0078284A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VoiceRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d-Ear.VoiceRecord";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D5A726A51D07E31B0078284A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VoiceRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.d-Ear.VoiceRecord";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A726871D07E31B0078284A /* Build configuration list for PBXProject "VoiceRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A726A11D07E31B0078284A /* Debug */,
+				D5A726A21D07E31B0078284A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A726A31D07E31B0078284A /* Build configuration list for PBXNativeTarget "VoiceRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A726A41D07E31B0078284A /* Debug */,
+				D5A726A51D07E31B0078284A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A726841D07E31B0078284A /* Project object */;
+}
